@@ -1,0 +1,22 @@
+{
+  "name": "ios-clabe-validator",
+  "version": "0.1.0",
+  "summary": "A short description of ios-clabe-validator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Juan/ios-clabe-validator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Juan": "juan.garza@axented.com"
+  },
+  "source": {
+    "git": "https://github.com/Juan/ios-clabe-validator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ios-clabe-validator/Classes/**/*"
+}

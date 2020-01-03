@@ -22,7 +22,7 @@ pod 'ios-clabe-validator'
 
 ## Author
 
-Juan, juan.garza@axented.com
+JC, jcgarzar@gmail.com
 
 ## License
 

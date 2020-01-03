@@ -1,0 +1,6 @@
+framework module ios_clabe_validator {
+  umbrella header "ios-clabe-validator-umbrella.h"
+
+  export *
+  module * { export * }
+}

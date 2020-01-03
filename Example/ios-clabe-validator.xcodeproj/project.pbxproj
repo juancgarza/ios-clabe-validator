@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D8189886615C5F27A4E6DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1255D3C2905EC9417E81D232 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		06D8189886615C5F27A4E6DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1255D3C2905EC9417E81D232 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2986761F7C8AE4D831A7AF1F /* Pods-ios-clabe-validator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-clabe-validator_Example.debug.xcconfig"; path = "Target Support Files/Pods-ios-clabe-validator_Example/Pods-ios-clabe-validator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5603A275E49FF207CCD9A49E /* Pods_ios_clabe_validator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_clabe_validator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ios-clabe-validator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-clabe-validator_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CC72018FECB654C9E345419 /* Pods-ios-clabe-validator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-clabe-validator_Example.release.xcconfig"; path = "Target Support Files/Pods-ios-clabe-validator_Example/Pods-ios-clabe-validator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A334A07E011A04B09EC2869 /* ios-clabe-validator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "ios-clabe-validator.podspec"; path = "../ios-clabe-validator.podspec"; sourceTree = "<group>"; };
+		9A334A07E011A04B09EC2869 /* ios-clabe-validator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ios-clabe-validator.podspec"; path = "../ios-clabe-validator.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF26162A213A3C09D62DE2F9 /* Pods-ios-clabe-validator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-clabe-validator_Tests.release.xcconfig"; path = "Target Support Files/Pods-ios-clabe-validator_Tests/Pods-ios-clabe-validator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B98132206E92D430A6C57731 /* Pods_ios_clabe_validator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_clabe_validator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46CED2D21327E7FDCC95B84 /* Pods-ios-clabe-validator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-clabe-validator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ios-clabe-validator_Tests/Pods-ios-clabe-validator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				D46CED2D21327E7FDCC95B84 /* Pods-ios-clabe-validator_Tests.debug.xcconfig */,
 				AF26162A213A3C09D62DE2F9 /* Pods-ios-clabe-validator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
